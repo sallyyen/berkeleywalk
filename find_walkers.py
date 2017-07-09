@@ -4,12 +4,12 @@ import googlemaps
 import os
 
 
-try:
-    API_KEY = os.environ["APIKEY"]
-except KeyError:
-    print "You need a Google API Key for the Distance Matrix API"
+# try:
+#     API_KEY = os.environ["APIKEY"]
+# except KeyError:
+#     print "You need a Google API Key for the Distance Matrix API"
 
-gmaps_client = googlemaps.Client(key=API_KEY)
+gmaps_client = googlemaps.Client(key=AIzaSyAliQMpZtre9L1WbYGkQTk5lbDDMvRbVgQ)
 
 
 
